@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.954" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="com.google.devrel.training.conference.spi.ConferenceApiTest" time="1.013" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="24.80-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/alonso/AppEngine/ud859/Lesson_5/00_Learnica"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/alonso/Git/00_Learnica"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/alonso/AppEngine/ud859/Lesson_5/00_Learnica"/>
+    <property name="user.dir" value="/home/alonso/Git/00_Learnica"/>
     <property name="java.runtime.version" value="1.7.0_80-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.2.0-38-generic"/>
+    <property name="os.version" value="4.2.0-16-generic"/>
     <property name="user.home" value="/home/alonso"/>
     <property name="user.timezone" value="America/Mexico_City"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -41,7 +41,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher appengine:devserver"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher appengine:update"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,15 +59,15 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetConference" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.626"/>
-  <testcase name="testRegistrations" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.073"/>
-  <testcase name="testGetProfileFirstTime" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.004"/>
-  <testcase name="testUpdateProfileWithNulls" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.017"/>
-  <testcase name="testGetProfileWithoutUser" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.01"/>
-  <testcase name="testSaveProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.03"/>
-  <testcase name="testGetProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.035"/>
-  <testcase name="testUpdateProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.011"/>
-  <testcase name="testSaveProfileWithNull" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.02"/>
-  <testcase name="testCreateConference" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.018"/>
-  <testcase name="testGetConferencesCreated" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.11"/>
+  <testcase name="testGetConference" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.655"/>
+  <testcase name="testRegistrations" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.119"/>
+  <testcase name="testGetProfileFirstTime" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.008"/>
+  <testcase name="testUpdateProfileWithNulls" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.028"/>
+  <testcase name="testGetProfileWithoutUser" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.028"/>
+  <testcase name="testSaveProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.034"/>
+  <testcase name="testGetProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.009"/>
+  <testcase name="testUpdateProfile" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.019"/>
+  <testcase name="testSaveProfileWithNull" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.011"/>
+  <testcase name="testCreateConference" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.014"/>
+  <testcase name="testGetConferencesCreated" classname="com.google.devrel.training.conference.spi.ConferenceApiTest" time="0.088"/>
 </testsuite>

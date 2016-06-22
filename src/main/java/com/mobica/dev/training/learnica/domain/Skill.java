@@ -1,5 +1,11 @@
-package com.google.devrel.training.conference.domain;
+package com.mobica.dev.training.learnica.domain;
 
-public class Skill implements Data{
+public class Skill extends Data{
+
+    public Skill(String name,String dataId,String value){
+      super(name,dataId,value);
+    }
+
+
 
 }

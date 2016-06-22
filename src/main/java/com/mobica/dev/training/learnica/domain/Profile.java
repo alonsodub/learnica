@@ -1,4 +1,4 @@
-package com.google.devrel.training.conference.domain;
+package com.mobica.dev.training.lernica.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,11 +38,11 @@ public class Profile {
      * @param teeShirtSize The User's tee shirt size
      *
      */
-    public Profile (String userId, String displayName, String mainEmail, TeeShirtSize teeShirtSize) {
+    public Profile (String userId, String displayName, String mainEmail) {
         this.userId = userId;
         this.displayName = displayName;
         this.mainEmail = mainEmail;
-        this.teeShirtSize = teeShirtSize;
+
     }
 
     public String getDisplayName() {
